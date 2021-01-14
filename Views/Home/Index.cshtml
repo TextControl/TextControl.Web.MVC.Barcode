@@ -1,0 +1,36 @@
+﻿@model tx_barcode_sample.Models.Workorder
+
+
+<div class="row">
+    <div class="col-6">
+        <p>New work order:</p>
+
+        <form method="post" action="/Home/Register">
+
+            <div class="form-group">
+                <label for="contractorName">Contractor Name</label>
+                @Html.TextBoxFor(m => m.ContractorName, new { @class = "form-control", @id = "contractorName", @placeholder = "Contractor name" })
+                
+                <small id="contractorNameHelp" class="form-text text-muted">Type in the contractor's name.</small>
+            </div>
+
+            <div class="form-group">
+                <label for="ownerName">Home Owner</label>
+                @Html.TextBoxFor(m => m.HomeOwner, new { @class = "form-control", @id = "ownerName", @placeholder = "Home owner name" })
+                <small id="ownerNameHelp" class="form-text text-muted">Type in the home owner's name.</small>
+            </div>
+
+            <div class="form-check">
+                @Html.CheckBoxFor(m => m.Approved, new { @class = "form-check-input", @id = "approved" })
+                <label class="form-check-label" for="approved">Approved</label>
+            </div>
+
+            <br />
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+
+    </div>
+</div>
+
+

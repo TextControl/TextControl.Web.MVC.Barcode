@@ -1,0 +1,21 @@
+﻿@model tx_barcode_sample.Models.DocumentView
+@using TXTextControl.Web.MVC.DocumentViewer
+
+<div class="row">
+    <div class="col-12" style="height: 800px">
+
+        @Html.TXTextControl().DocumentViewer(settings => {
+            settings.DocumentPath = Model.DocumentPath;
+            settings.Dock = DocumentViewerSettings.DockStyle.Fill;
+            settings.SignatureSettings = new SignatureSettings {
+                OwnerName = "Owner",
+                ShowSignatureBar = true,
+                RedirectUrlAfterSignature = "",
+                UniqueId = Model.Id
+            };
+        }).Render()
+
+    </div>
+</div>
+
+
