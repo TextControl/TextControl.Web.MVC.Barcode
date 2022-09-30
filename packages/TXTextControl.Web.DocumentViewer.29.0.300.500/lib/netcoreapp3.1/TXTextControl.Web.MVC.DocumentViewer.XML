@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TXTextControl.Web.MVC.DocumentViewer</name>
+    </assembly>
+    <members>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.UserNames">
+            <summary>
+            Gets or sets the available user names.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.BasePath">
+            <summary>
+            Gets or sets the base path where to search for the TextControl controller.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.ResourceManager">
+            <summary>
+            Gets or sets the resource manager.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.ToolbarDocked">
+            <summary>
+            Specifies whether the toolbar is docked or not.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.DocumentPath">
+            <summary>
+            Gets or sets the document path from where to load the document.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.DocumentData">
+            <summary>
+            Gets or sets the document data from where to load the document to view
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.IsSelectionActivated">
+            <summary>
+            Specifies whether the selection feature is active or not.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.SignatureSettings">
+            <summary>
+            Specifies the signature settings.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.ShowThumbnailPane">
+            <summary>
+            Specifies whether the thumbnail view pane is visible by default.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.Dock">
+            <summary>
+            Specifies how to dock the DocumentViewer.
+            </summary>
+        </member>
+        <member name="T:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.DockStyle">
+            <summary>
+            Enumeration for the Dock property.
+            </summary>
+        </member>
+        <member name="F:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.DockStyle.Window">
+            <summary>
+            Fills the complete browser Window and is on top of other elements
+            </summary>
+        </member>
+        <member name="F:TXTextControl.Web.MVC.DocumentViewer.DocumentViewerSettings.DockStyle.Fill">
+            <summary>
+            Fills the container with width and height equals 100%
+            </summary>
+        </member>
+        <member name="T:TXTextControl.Web.MVC.DocumentViewer.SignatureSettings">
+            <summary>
+            Specifies the signature settings
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.SignatureSettings.OwnerName">
+            <summary>
+            Specifies the name of the document owner.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.SignatureSettings.SignatureBoxName">
+            <summary>
+            Specifies the name of the signature boxes to sign.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.SignatureSettings.SignerName">
+            <summary>
+            Specifies the name of the signer.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.SignatureSettings.SignerInitials">
+            <summary>
+            Specifies the initials of the signer.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.SignatureSettings.ShowSignatureBar">
+            <summary>
+            Specifies whether the signature bar is active or not.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.SignatureSettings.UniqueId">
+            <summary>
+            Gets or sets a unique document envelope Id.
+            </summary>
+        </member>
+        <member name="P:TXTextControl.Web.MVC.DocumentViewer.SignatureSettings.RedirectUrlAfterSignature">
+            <summary>
+            Gets or sets an Url that is used for redirection after a successful signing process.
+            </summary>
+        </member>
+    </members>
+</doc>

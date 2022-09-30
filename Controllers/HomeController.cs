@@ -40,8 +40,7 @@ namespace tx_barcode_sample.Controllers {
 			}
 			else {
 
-				return View(ModelState);
-
+				return View(new BarcodeView());
 			}
 		}
 	}
